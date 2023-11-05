@@ -1,7 +1,7 @@
 .first_image{
     background: rgba(0,0,0,0.7) url(image/Happy\ \(1\).jpg);
     background-blend-mode: darken;
-    background-position: center center;
+    background-position: center left;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
