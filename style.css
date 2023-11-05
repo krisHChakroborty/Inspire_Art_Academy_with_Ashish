@@ -1,0 +1,18 @@
+.first_image{
+    background: rgba(0,0,0,0.7) url(image/Happy\ \(1\).jpg);
+    background-blend-mode: darken;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.logo{
+    width:108px;
+}
+
+/* .dflex{
+    display: flex;
+    justify-content: space-between;
+} */
