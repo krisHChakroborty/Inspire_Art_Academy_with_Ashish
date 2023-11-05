@@ -6,6 +6,7 @@
     <title>Inspire Art Academy</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
 
@@ -14,7 +15,9 @@
 
     
     <div class="row">
-        <div class="col-lg-12 first_image ">
+        <div  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" class="col-lg-12 first_image ">
 
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
@@ -25,7 +28,7 @@
 
 
                   <div class="collapse navbar-collapse me-5  " id="navbarSupportedContent">
-                    <ul class="navbar-nav  ms-auto mb-2 mb-lg-0"style="border-radius: 10px; background-color:blue;" >
+                    <ul class="navbar-nav  ms-auto mb-2 mb-lg-0 bg-primary"style="border-radius: 10px;" >
                       <li class="nav-item p-2">
                         <a class="nav-link active text-white ms-5" aria-current="page" href="#" > <b>H o m e</b> </a>
                       </li>
@@ -49,8 +52,10 @@
 <br><br><br><br>
 
 
-              <h1 class="text-center mt-5" style="color: rgb(252, 219, 176);">"Inspire Art Academy"</h1>
-              <h6 class=" text-center" style="color: antiquewhite;">Inspire Art Academy is a hub of boundless creativity, where imagination knows no bounds and every stroke of the brush or click of the camera captures the essence of art in its purest form. The talent that emanates from this academy is truly inspiring, as it nurtures and elevates artists to reach new heights of expression. With an unwavering commitment to fostering artistic excellence, Inspire Art Academy is not just a place of learning; it's a sanctuary for the soul where art blossoms and flourishes. 🎨📷✨</h> 
+              <h1 data-aos="flip-up" data-aos-duration="3000" class="text-center mt-5" style="color: rgb(252, 219, 176);">"Inspire Art Academy"</h1>
+              <h6 data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000" class=" text-center" style="color: antiquewhite;">Inspire Art Academy is a hub of boundless creativity, where imagination knows no bounds and every stroke of the brush or click of the camera captures the essence of art in its purest form. The talent that emanates from this academy is truly inspiring, as it nurtures and elevates artists to reach new heights of expression. With an unwavering commitment to fostering artistic excellence, Inspire Art Academy is not just a place of learning; it's a sanctuary for the soul where art blossoms and flourishes. 🎨📷✨</h> 
            
 
                
@@ -84,13 +89,13 @@
 <div class="container-fluid ">
     <div class="row d-flex justify-content-evenly">
         <div class="col-lg-4">
-            <img class="img-fluid" src="image/Happy (2).jpg" alt=""> <br><br><br>
+            <img data-aos="fade-up-right" data-aos-duration="2000" class="img-fluid" src="image/Happy (2).jpg" alt=""> <br><br><br>
 
         
         </div>
 
         <div class="col-lg-4">
-            <img class="img-fluid" src="image/Happy (1).jpg" alt=""> <br><br><br>
+            <img data-aos="fade-up-left" data-aos-duration="2000" class="img-fluid" src="image/Happy (1).jpg" alt=""> <br><br><br>
             
          
         </div>
@@ -99,13 +104,13 @@
 
     <div class="row d-flex justify-content-evenly">
       <div class="col-lg-4">
-          <img class="img-fluid" src="image/Happy (3).jpg" alt=""> <br><br><br>
+          <img data-aos="fade-up-right" data-aos-duration="2000" class="img-fluid" src="image/Happy (3).jpg" alt=""> <br><br><br>
 
       
       </div>
 
       <div class="col-lg-4">
-          <img class="img-fluid" src="image/Happy (1).jpg" alt=""> <br><br><br>
+          <img data-aos="fade-up-left" data-aos-duration="2000" class="img-fluid" src="image/Happy (1).jpg" alt=""> <br><br><br>
           
        
       </div>
@@ -179,8 +184,11 @@
 
 
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>
